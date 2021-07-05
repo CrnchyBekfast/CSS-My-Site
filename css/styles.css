@@ -1,1 +1,253 @@
-Hi
+.topContainer {
+  background-color: #F3F0D7;
+  text-align: center;
+}
+
+.title {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 60px;
+  color: #66BFBF;
+  font-size: 8.50rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+.subtitle {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-weight: normal;
+  transform: translate(-50%, -50%);
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.3rem;
+  padding: 5px;
+  color: #66BFBF;
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #CEE5D0;
+}
+
+p {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+p{
+  color: #40514E
+}
+
+h3 {
+  color: #11999E;
+  font-size: 1.6rem;
+}
+
+h1 {
+  color: #11999E;
+}
+
+h2 {
+  color: #11999E;
+  font-size: 3rem;
+}
+
+.top-cloud {
+  position: absolute;
+  display: block;
+  top: 4%;
+  left: 25%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 22%;
+  right: 25%;
+  display: block;
+}
+
+.mountain {
+  text-align: center;
+  width: 60%;
+}
+
+.positioning-div {
+  background-color: #F3F0D7;
+  text-align: center;
+  position: relative;
+}
+
+.profile-photo {
+  border-radius: 100%;
+  width: 40%;
+}
+
+.profile {
+  text-align: center;
+  padding: 20px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+  background-color: #CEE5D0;
+}
+
+.android {
+  border-radius: 100%;
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+  background-color: #E47A61;
+}
+
+.skills {
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+  background-color: #CEE5D0;
+}
+
+.copyright-div {
+  background-color: #5E454B;
+  margin: 0;
+  text-align: center;
+  padding: 20px 20px 0 20px;
+}
+
+.social-links {
+  text-align: center;
+}
+
+hr {
+  margin: 20px auto 20px auto;
+  border: none;
+  border-top: dotted #BFC0C2;
+  border-width: 8px;
+  width: 10%;
+}
+
+.copyright {
+  text-align: center;
+  color: #CEE5D0;
+  margin:10px 10px 0 10px;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.youtube {
+  display: inline-block;
+  width: 15%;
+  opacity: 0.6;
+  border-radius: 10%;
+  margin: 0;
+}
+
+.twitter {
+  display: inline-block;
+  margin-left: 25px;
+  width: 8%;
+  opacity: 0.6;
+  border-radius: 10%;
+}
+
+.web-development {
+  border-radius: 100%;
+  width: 35%;
+  margin-left: 30px;
+  float: right;
+}
+
+.web-development:hover {
+  box-shadow: 5px 5px 8px #808080;
+  transition: 0.3s;
+}
+
+.android:hover {
+  box-shadow: 5px 5px 8px #808080;
+  transition: 0.3s;
+}
+
+.contact-me {
+  background-color: #CEE5D0;
+  margin-top: 0;
+  text-align: center;
+  padding: 20px;
+}
+
+.youtube:hover {
+  opacity: 1;
+  transition: 0.3s;
+  box-shadow: 2px 2px 4px #808080;
+}
+
+
+.website-link {
+  display: inline-block;
+  margin-left: 25px;
+  width: 8%;
+  opacity: 0.6;
+  border-radius: 10%;
+}
+
+.website-link:hover {
+  opacity: 1;
+  transition: 0.3s;
+  box-shadow: 5px 5px 8px #808080;
+}
+
+.profile-photo:hover {
+  transition: 0.3s;
+  box-shadow: 2px 2px 4px #808080;
+}
+
+.btn {
+  display: inline-block;
+}
+
+.skill-row {
+  display: inline-block;
+  width: 65%;
+  text-align: left;
+  line-height: 1.5;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.twitter:hover {
+  opacity: 1;
+  transition: 0.3s;
+  box-shadow: 2px 2px 4px #808080;
+}
+
+.android-text {
+  margin-top: 130px;
+}
+
+.web-development-text {
+  margin-top: 130px;
+}
+
+.contact-button {
+  background-color: #E5FFEB;
+  border: solid #808080 2px;
+  border-radius: 15px;
+  margin: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+  color: #11999E;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.contact-button:hover{
+  border-color: #808080;
+  background-color: #CEE5D0;
+  box-shadow: 2px 2px 4px #808080;
+  transition: 0.2s;
+}
